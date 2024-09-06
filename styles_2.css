@@ -1,0 +1,152 @@
+body {
+  background-color: black;
+  color: #48ff00;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+
+.interface{
+max-width: 1280px;
+margin: 0 auto;
+}
+
+header{
+padding: 0 auto;
+}
+
+header > .interface{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+header div a{
+color: black;
+text-decoration: none;
+}
+
+header div nav a{
+color: #ffffff;
+text-decoration: none;
+display: inline-block;
+transition: 0.5s;
+
+}
+
+header nav a:hover{
+color: #48ff00;
+text-shadow: 0 0 30px #51ff00;
+transform: scale(1.05);
+font-weight: 900;
+display: inline-block;
+padding: 0 40px;
+}
+div > .poke{
+font-size: 6vh;
+font-weight: bolder;
+color:#48ff00
+}
+header nav ul{
+list-style-type: none;
+}
+
+header nav ul li{
+display: inline-block;
+padding: 0 40px;
+}
+header .contato button{
+padding: 10px 40px;
+font-size: 18px;
+font-weight: 700;
+text-decoration-color: black;
+background-color: #48ff00;
+border: 0;
+border-radius:30px;
+cursor: pointer;
+}
+
+header div .contato button:hover{
+box-shadow: 0 0 15px #48ff00;
+transition: 0.5s;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #48ff00;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: 700;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+.brilho{
+  text-shadow: #15ff00;
+  text-decoration: underline;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+button{
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  color: #000000;
+  font-weight: 500;
+  background-color: #15ff00;
+  border:none;
+  border-radius:10px;
+  min-width: 300px;
+}
+button:hover{
+  box-shadow: 0 0 15px #15ff00;
+  transition: 0.5s;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+.inline{
+  display: inline; 
+}
+
+a{
+  color:#000000;
+}

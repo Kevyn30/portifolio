@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+  display: flex;
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+}
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header{
+  padding: 40px 4%;
+}
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header div a{
+  color: black;
+  text-decoration: none;
+}
+
+header div nav a{
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+  
+}
+main div a{
+  color:black;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+header nav a:hover{
+  color: #48ff00;
+  text-shadow: 0 0 30px #51ff00;
+  transform: scale(1.05);
+  font-weight: 900;
+  display: inline-block;
+  padding: 0 40px;
+}
+div > .poke{
+  font-size: 6vh;
+  font-weight: bolder;
+  color:#48ff00
+}
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+}
+ .contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration-color: black;
+  background-color: #48ff00;
+  border: 0;
+  border-radius:30px;
+  cursor: pointer;
+}
+
+div .contato button:hover{
+  box-shadow: 0 0 15px #48ff00;
+  transition: 0.5s;
+}
+
+section.topo{
+  padding: 40px 4%;
+
+}
+
+section.topo .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.topo h1{
+  color: white;
+  font-size: 38px;
+  line-height: 40px;
+}
+.topo .texto p{
+  color: #fff;
+  margin: 40px 0;
+}
+.topo .imagem img{
+  position: relative;
+  animation: foto 2.8s ease-in-out infinite alternate;
+  border-radius: 50%;
+}
+
+
+@keyframes foto{
+  0%{
+    top: 30px;
+  }
+  12.5%{
+    bottom: 15px;
+  }
+  25%{
+    bottom: 7.5px;
+  }
+  50%{
+    top: 15px;
+  }
+  100%{top: 30px;}
+}
