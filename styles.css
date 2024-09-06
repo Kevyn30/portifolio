@@ -10,10 +10,10 @@
 
 body{
   background-color: black;
-  height: 100vh;
+  height: 100%;
 }
 .interface{
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
