@@ -58,7 +58,9 @@ div.lista ul{
   margin-bottom: 1%;
   color: white;
 }
-
+.lol{
+  font-size: 20px;
+}
 div.pi a{
   color: #48ff00;
   text-decoration-line: underline;
