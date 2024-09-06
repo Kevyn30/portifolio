@@ -7,7 +7,7 @@ body {
 
 
 .interface{
-max-width: 1280px;
+max-width: 100%;
 margin: 0 auto;
 }
 
@@ -149,4 +149,7 @@ input[type="file"] {
 
 a{
   color:#000000;
+}
+.in{
+  font-weight: 800;
 }
