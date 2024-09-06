@@ -16,13 +16,18 @@ body{
   max-width: 100%;
   margin: 0 auto;
 }
+h2{
+  color:#48ff00;
+  font-weight: 800;
+  text-shadow: 0 0 15px #48ff00;
+}
 
 header{
   padding: 40px 4%;
 }
 
 header > .interface{
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -43,6 +48,20 @@ main div a{
   text-decoration: none;
   display: inline-block;
   transition: 0.5s;
+}
+div.lista h2{
+  margin-bottom: 1%;
+}
+div.lista ul{
+  font-size: 3vh;
+  padding-left: 3%;
+  margin-bottom: 1%;
+  color: white;
+}
+
+div.pi a{
+  color: #48ff00;
+  text-decoration-line: underline;
 }
 
 header nav a:hover{
